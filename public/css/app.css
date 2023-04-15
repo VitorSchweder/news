@@ -29,8 +29,10 @@ body {
     right: 0;
     top: 0;
     margin-right: 10px;
-    margin-top: 5px;
-    background: #ffffff;
+    margin-top: 10px;
+    background: #FFFFFF url(../search.svg);
+    width: 16px;
+    height: 16px;
 }
 
 .container-footer {
