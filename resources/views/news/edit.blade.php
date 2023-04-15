@@ -8,7 +8,7 @@
                 <h2 class="h-title">Alterar Notícia</h2>
             </div>
             <div class="pull-right b-back">
-                <a class="btn btn-primary" href="{{ route('news.index') }}"> Voltar</a>
+                <a class="btn btn-primary" href="{{ route('news-list') }}"> Voltar</a>
             </div>
         </div>
     </div>

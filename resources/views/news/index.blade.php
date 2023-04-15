@@ -6,11 +6,11 @@
             <div class="row">
                 <div class="col-lg-12 d-flex margin-tb">
                     <div class="pull-left col-lg-6">
-                        <a href="{{ route('news.index') }}">LOGO</a>
+                        <a href="{{ route('news-list') }}">LOGO</a>
                     </div>
                     <div class="pull-right col-lg-6 d-flex">
                         <a href="{{ route('news.create') }}"> CADASTRAR NOTÍCIAS</a>
-                        <a href="{{ route('news.index') }}"> EXIBIR NOTÍCIAS</a>
+                        <a href="{{ route('news-list') }}"> EXIBIR NOTÍCIAS</a>
 
                         <form method="GET" action="{{ route('search-result') }}">
                             <input class="form-control" value="{{ $inputSearch ?? null }}" type="search" name="query" type="text">

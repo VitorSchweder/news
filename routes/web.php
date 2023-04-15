@@ -17,7 +17,4 @@ use App\Http\Controllers\SearchController;
 
 Route::resource('news', NewsController::class);
 Route::get('/search', [SearchController::class, 'index'])->name('search-result');
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [NewsController::class, 'index'])->name('news-list');

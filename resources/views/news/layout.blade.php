@@ -3,7 +3,7 @@
 <head>
     <title>Notícias</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}" >
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}" >
 </head>
 <body>
     
